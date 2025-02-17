@@ -1,16 +1,16 @@
 Această implementare modelează un trenulet special format dintr-o locomotivă și un număr infinit de vagoane. Trenul este reprezentat utilizând o listă dublu înglănțuită circulară cu santinelă (locomotiva). 
 Mecanicul se poate deplasa pe vagoane și poate modifica inscripțiile acestora.
 
-Funcționalități:
+## Funcționalități:
 
-Initializare tren: Creează un tren cu locomotiva, primul vagon (înitializat cu #) și mecanicul poziționat pe primul vagon.
+### Initializare tren: Creează un tren cu locomotiva, primul vagon (înitializat cu #) și mecanicul poziționat pe primul vagon.
 
-  Initializare coadă de comenzi: Creează o coadă goală pentru stocarea comenzilor, folosind o listă dublu înglănțuită.
+  ### Initializare coadă de comenzi: Creează o coadă goală pentru stocarea comenzilor, folosind o listă dublu înglănțuită.
 
   
   
 
- Operatii de actualizare (UPDATE)
+ ### Operatii de actualizare (UPDATE)
 
   MOVE_LEFT: Mecanicul se deplasează la stânga. Dacă este pe primul vagon, este mutat pe ultimul.
 
@@ -29,7 +29,7 @@ Initializare tren: Creează un tren cu locomotiva, primul vagon (înitializat cu
   
   
 
-Operatii de interogare (QUERY)
+### Operatii de interogare (QUERY)
 
   SHOW_CURRENT: Afișează caracterul din vagonul curent.
 
@@ -39,10 +39,10 @@ Operatii de interogare (QUERY)
 
   
 
-EXECUTE: Execută prima comandă din coadă.
+### EXECUTE: Execută prima comandă din coadă.
 
 
-Cum se Rulează:
+## Cum se Rulează:
 
 Compilare:
 
